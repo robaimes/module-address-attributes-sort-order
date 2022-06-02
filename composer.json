@@ -1,0 +1,20 @@
+{
+  "name": "aimes/module-address-attributes-sort-order",
+  "version": "1.0.0",
+  "description": "Allows re-ordering of checkout field from the customer address attribute admin management form.",
+  "type": "magento2-module",
+  "require": {
+    "magento/module-customer-custom-attributes": "100.4.*"
+  },
+  "license": [
+    ""
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Aimes\\AddressAttributesSortOrder\\": ""
+    }
+  }
+}
